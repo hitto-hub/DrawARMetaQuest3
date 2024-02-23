@@ -12,7 +12,7 @@ public class Droawing : MonoBehaviour
     [SerializeField] private GameObject handObject; //書きたい方の手を入れる
     private OVRHand _hand;　//ハンドトラッキングをしているかの判定に使う
     private OVRSkeleton _skeleton; //Bone情報
-    [SerializeField] private float touchDistanceThreshold = 0.02f; //人差し指と親指がこの値以上近づいたら線を書く
+    [SerializeField] private float touchDistanceThreshold = 0.01f; //人差し指と親指がこの値以上近づいたら線を書く
 
     private void Start()
     {
